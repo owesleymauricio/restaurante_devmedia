@@ -4,4 +4,26 @@
 }
 
 /* styles.css */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
+
+
+.banner {
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner div {
+  max-width: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
